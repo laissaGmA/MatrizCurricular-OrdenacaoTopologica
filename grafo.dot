@@ -1,0 +1,34 @@
+digraph {
+	"Calculo para Computacao II"-> "Calculo para Computacao I" ;
+	"Fisica Para Computacao"-> "Calculo para Computacao I" ;
+	"Algebra Linear"-> "Geometria Analitica" ;
+	"Algoritmos e Estrutura de Dados I"-> "Introducao a Programacao" ;
+	"Programacao Orientada a Objetos"-> "Introducao a Programacao" ;
+	"Probabilidade e Estatistica"-> "Calculo para Computacao I" ;
+	"Matematica Discreta"-> "Logica Matematica" ;
+	"Algoritmos e Estrutura de Dados II"-> "Algoritmos e Estrutura de Dados I" ;
+	"Arquitetura de Computadores"-> "Programacao Orientada a Objetos" ;
+	"Banco de Dados"-> "Algoritmos e Estrutura de Dados II" ;
+	"Fisica Para Computacao"-> "Calculo para Computacao II" ;
+	"Projeto e Analise de Algoritmos"-> "Algoritmos e Estrutura de Dados I" ;
+	"Engenharia de Software"-> "Programacao Orientada a Objetos" ;
+	"Paradigmas de Linguagens de Programacao"-> "Algoritmos e Estrutura de Dados I" ;
+	"Sistemas de Informacao e Tecnologias"-> "Programacao Orientada a Objetos" ;
+	"Sistemas Operacionais"-> "Arquitetura de Computadores" ;
+	"Sistemas Operacionais"-> "Sistemas Digitais" ;
+	"Sistemas Operacionais"-> "Fisica Para Computacao" ;
+	"Inteligencia Artificial"-> "Algoritmos e Estrutura de Dados I" ;
+	"Inteligencia Artificial"-> "Algoritmos e Estrutura de Dados II" ;
+	"Teoria da Computacao"-> "Matematica Discreta" ;
+	"Redes de Computadores"-> "Algoritmos e Estrutura de Dados II" ;
+	"Redes de Computadores"-> "Arquitetura de Computadores" ;
+	"Computacao Grafica"-> "Introducao a Programacao" ;
+	"Compiladores"-> "Algoritmos e Estrutura de Dados I" ;
+	"Compiladores"-> "Algoritmos e Estrutura de Dados II" ;
+	"Reconhecimento de Padroes"-> "Algoritmos e Estrutura de Dados I" ;
+	"Reconhecimento de Padroes"-> "Algoritmos e Estrutura de Dados II" ;
+	"Projeto de Desenvolvimento"-> "Programacao Orientada a Objetos" ;
+	"Projeto de Desenvolvimento"-> "Engenharia de Software" ;
+	"Interacao Humano-Computador"-> "Programacao Orientada a Objetos" ;
+	"Interacao Humano-Computador"-> "Engenharia de Software" ;
+}
