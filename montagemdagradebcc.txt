@@ -1,0 +1,44 @@
+ID, Título, Dependências
+0, Calculo para Computacao I,,
+1, Geometria Analitica,,
+2, Logica Matematica,,
+3, Introducao a Programacao,,
+4, Introducao a Computacao,, 
+5, Calculo para Computacao II, 0
+6, Fisica Para Computacao, 0
+7, Algebra Linear, 1
+8, Algoritmos e Estrutura de Dados I, 3
+9, Programacao Orientada a Objetos, 3
+10, Probabilidade e Estatistica, 0
+11, Matematica Discreta, 2
+12, Algoritmos e Estrutura de Dados II, 8
+13, Ingles,, 
+14, Arquitetura de Computadores, 9
+15, Sistemas Digitais,,
+16, Metodologia Cientifica,,
+17, Banco de Dados, 12
+18, Fisica Para Computacao, 5
+19, Projeto e Analise de Algoritmos, 8
+20, Engenharia de Software, 9
+21, Paradigmas de Linguagens de Programacao, 8
+22, Sistemas de Informacao e Tecnologias, 9
+23, Sistemas Operacionais, 14, 15, 18
+24, Inteligencia Artificial, 8, 12
+25, Teoria da Computacao, 11
+26, Redes de Computadores, 12, 14
+27, Computacao Grafica, 3
+28, Compiladores, 8, 12
+29, Reconhecimento de Padroes, 8, 12
+30, Empreendimentos em TIC,, 
+31, Projeto de Desenvolvimento, 9, 20
+32, Interacao Humano-Computador, 9, 20
+33, Computadores e Sociedade,,
+34, Optativa 01,,
+35, Optativa 02,,
+36, Optativa 03,,
+37, Optativa 04,, 
+38, Optativa 05,, 
+39, Optativa 06,, 
+40, Optativa 07,, 
+41, Estagio,,
+42, Trabalho de Conclusao de Curso, ,
