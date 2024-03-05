@@ -129,14 +129,14 @@ void ordenacao_topologica(grafo_t* g)
         exit(EXIT_FAILURE);
     }
 
-    file = fopen("OrdenacaoTopologica de Disciplinas.dot", "w");
+    file = fopen("OrdenacaoTopologica_de_Disciplinas.txt", "w");
 
     if (file == NULL){
         perror("exportar_grafo_dot:");
         exit(EXIT_FAILURE);
     }
 
-    fprintf(file, "Lista da ordem em que as disciplinas devem ser cursadas, levando em conta suas dependências:\n");
+    fprintf(file, "Sugestao de ordenacao das disciplinas, levando em conta suas dependencias:\n");
 
     fila_t* Q = cria_fila();
     for(i = 0; i < g->n_vertices; i++){
@@ -148,7 +148,7 @@ void ordenacao_topologica(grafo_t* g)
     while(!fila_vazia(Q))
     {
         i = (int)dequeue(Q);
-        fprintf(file, "%d� %s, ID:%d\n", k, g->vertices[i].titulo, g->vertices[i].id);
+        fprintf(file, "%dº %s, ID:%d\n", k+1, g->vertices[i].titulo, g->vertices[i].id);
         if(g->vertices[i].n_dependencias == 0)
         {
             for(j = 0; j < g->n_vertices; j++)
@@ -166,6 +166,18 @@ void ordenacao_topologica(grafo_t* g)
     }
     libera_fila(Q);
 
+    fclose(file);
+
+    // Imprime a ordenação topológica também no terminal
+    file = fopen("OrdenacaoTopologica_de_Disciplinas.txt", "r");
+    if (file == NULL){
+        perror("Erro ao abrir o arquivo:");
+        exit(EXIT_FAILURE);
+    }
+    char buffer[1024];
+    while(fgets(buffer, sizeof(buffer), file) != NULL) {
+        printf("%s", buffer);
+    }
     fclose(file);
 }
 
