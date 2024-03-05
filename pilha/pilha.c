@@ -7,21 +7,17 @@
 
 //#define DEBUG
 
-#define FALSO 0
-#define VERDADEIRO 1
-
 struct pilhas {
 	lista_enc_t *dados;
 };
 
 
-//cria uma pilha generica
-pilha_t * cria_pilha (void)
-{
+// Cria uma pilha genérica
+pilha_t *criar_pilha(void) {
     pilha_t *pilha = (pilha_t*)malloc(sizeof(pilha_t));
 
     if (pilha == NULL) {
-        fprintf(stderr, "Erro alocando dados em cria_pilha!\n");
+        perror("criar_pilha:");
         exit(EXIT_FAILURE);
     }
 
@@ -30,32 +26,30 @@ pilha_t * cria_pilha (void)
     return pilha;
 }
 
-//adiciona elemento
-void push(void* dado, pilha_t *pilha)
-{
-	no_t *no;
+// Adiciona elemento
+void push(void *dado, pilha_t *pilha) {
+    no_t *no;
 
     if (pilha == NULL) {
-        fprintf(stderr, "push: pilha invalida\n");
+        fprintf(stderr, "push: pilha inválida\n");
         exit(EXIT_FAILURE);
     }
 
     #ifdef DEBUG
-    printf("push: %x\n", dado);
+    printf("push: %p\n", dado);
     #endif // DEBUG
 
-    no = cria_no(dado);
+    no = criar_no(dado);
     add_cauda(pilha->dados, no);
 }
 
-//retira elemento do topo
-void *pop(pilha_t *pilha)
-{
-	no_t *no;
-	void *dado;
+// Retira elemento do topo
+void *pop(pilha_t *pilha) {
+    no_t *no;
+    void *dado;
 
-    if (pilha == NULL){
-        fprintf(stderr, "pop: pilha invalida!\n");
+    if (pilha == NULL) {
+        fprintf(stderr, "pop: pilha inválida!\n");
         exit(EXIT_FAILURE);
     }
 
@@ -70,28 +64,24 @@ void *pop(pilha_t *pilha)
     return dado;
 }
 
-
-void libera_pilha(pilha_t* pilha)
-{
-	if (pilha == NULL) {
-        fprintf(stderr, "Erro em libera_pilha\n");
+void liberar_pilha(pilha_t *pilha) {
+    if (pilha == NULL) {
+        fprintf(stderr, "Erro em liberar_pilha\n");
         exit(EXIT_FAILURE);
     }
 
-    if (!lista_vazia(pilha->dados))    {
-    	fprintf(stderr, "Impossivel liberar pilha, ainda ha dados\n");
+    if (!lista_vazia(pilha->dados)) {
+    	fprintf(stderr, "Impossível liberar pilha, ainda há dados\n");
     	exit(EXIT_FAILURE);
     }
 
     free(pilha->dados);
     free(pilha);
-
 }
 
-int pilha_vazia(pilha_t *pilha)
-{
+int pilha_vazia(pilha_t *pilha) {
     if (pilha == NULL) {
-        fprintf(stderr, "pilha_vazia: pilha invalida\n");
+        fprintf(stderr, "pilha_vazia: pilha inválida\n");
         exit(EXIT_FAILURE);
     }
 

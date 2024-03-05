@@ -13,32 +13,33 @@ ID, Título, Dependências
 11, Matematica Discreta, 2
 12, Algoritmos e Estrutura de Dados II, 8
 13, Ingles,, 
-14, Arquitetura de Computadores, 9
+14, Arquitetura de Computadores, 8, 15
 15, Sistemas Digitais,,
 16, Metodologia Cientifica,,
 17, Banco de Dados, 12
 18, Fisica Para Computacao, 5
-19, Projeto e Analise de Algoritmos, 8
+19, Projeto e Analise de Algoritmos, 12
 20, Engenharia de Software, 9
-21, Paradigmas de Linguagens de Programacao, 8
-22, Sistemas de Informacao e Tecnologias, 9
-23, Sistemas Operacionais, 14, 15, 18
-24, Inteligencia Artificial, 8, 12
+21, Paradigmas de Linguagens de Programacao, 12
+22, Sistemas de Informacao e Tecnologias, 20
+23, Sistemas Operacionais, 14, 18
+24, Inteligencia Artificial, 19, 21
 25, Teoria da Computacao, 11
-26, Redes de Computadores, 12, 14
-27, Computacao Grafica, 3
-28, Compiladores, 8, 12
-29, Reconhecimento de Padroes, 8, 12
+26, Redes de Computadores, 12
+27, Computacao Grafica, 7, 3
+28, Compiladores, 12, 11, 25
+29, Reconhecimento de Padroes, 12, 11
 30, Empreendimentos em TIC,, 
-31, Projeto de Desenvolvimento, 9, 20
-32, Interacao Humano-Computador, 9, 20
-33, Computadores e Sociedade,,
-34, Optativa 01,,
-35, Optativa 02,,
-36, Optativa 03,,
-37, Optativa 04,, 
-38, Optativa 05,, 
-39, Optativa 06,, 
-40, Optativa 07,, 
-41, Estagio,,
-42, Trabalho de Conclusao de Curso, ,
+31, Sistemas Distribuidos, 23, 14, 26 
+32, Projeto de Desenvolvimento, 9, 20
+33, Interacao Humano-Computador, 9, 20
+34, Computadores e Sociedade,,
+35, Optativa 01,,
+36, Optativa 02,,
+37, Optativa 03,,
+38, Optativa 04,, 
+39, Optativa 05,, 
+40, Optativa 06,, 
+41, Optativa 07,, 
+42, Estagio,,
+43, Trabalho de Conclusao de Curso, ,

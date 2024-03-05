@@ -3,19 +3,18 @@
 
 #include "no.h"
 
-struct nos{
-    void* dados;
+struct nos {
+    void *dados;
     no_t *proximo;
     no_t *anterior;
 };
 
-// Cria um novo no
-no_t *cria_no(void *dado)
-{
+// Cria um novo nó
+no_t *criar_no(void *dado) {
     no_t *p = malloc(sizeof(no_t));
 
-    if (p == NULL){
-        perror("cria_no:");
+    if (p == NULL) {
+        perror("criar_no:");
         exit(EXIT_FAILURE);
     }
 
@@ -26,21 +25,19 @@ no_t *cria_no(void *dado)
     return p;
 }
 
-void liga_nos (no_t *fonte, no_t *destino)
-{
-    if (fonte == NULL || destino == NULL){
-        fprintf(stderr,"liga_nos: ponteiros invalidos");
+void conectar_nos(no_t *origem, no_t *destino) {
+    if (origem == NULL || destino == NULL) {
+        fprintf(stderr, "conectar_nos: ponteiros inválidos");
         exit(EXIT_FAILURE);
     }
 
-    fonte->proximo = destino;
-    destino->anterior = fonte;
+    origem->proximo = destino;
+    destino->anterior = origem;
 }
 
-void desliga_no (no_t *no)
-{
+void desconectar_no(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"desliga_no: ponteiros invalidos");
+        fprintf(stderr, "desconectar_no: ponteiro inválido");
         exit(EXIT_FAILURE);
     }
 
@@ -48,51 +45,44 @@ void desliga_no (no_t *no)
     no->anterior = NULL;
 }
 
-void desliga_no_anterior (no_t *no)
-{
+void desconectar_no_anterior(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"liga_no_anterior: ponteiros invalidos");
+        fprintf(stderr, "desconectar_no_anterior: ponteiro inválido");
         exit(EXIT_FAILURE);
     }
 
     no->anterior = NULL;
 }
 
-void desliga_no_proximo (no_t *no)
-{
+void desconectar_no_proximo(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"desliga_no_proximo: ponteiros invalidos");
         exit(EXIT_FAILURE);
     }
 
     no->proximo = NULL;
 }
 
-
-void *obter_dado (no_t *no)
-{
+void *obter_dado(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"obter_dado: ponteiros invalidos");
+        fprintf(stderr, "obter_dado: ponteiro inválido");
         exit(EXIT_FAILURE);
     }
 
     return no->dados;
 }
 
-no_t *obtem_proximo (no_t *no)
-{
+no_t *obter_proximo(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"obtem_proximo: ponteiros invalidos");
+        fprintf(stderr, "obter_proximo: ponteiro inválido");
         exit(EXIT_FAILURE);
     }
 
     return no->proximo;
 }
 
-no_t *obtem_anterior (no_t *no)
-{
+no_t *obter_anterior(no_t *no) {
     if (no == NULL) {
-        fprintf(stderr,"obetem anterior: ponteiros invalidos");
+        fprintf(stderr, "obter_anterior: ponteiro inválido");
         exit(EXIT_FAILURE);
     }
 

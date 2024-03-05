@@ -1,0 +1,45 @@
+Lista da ordem em que as disciplinas devem ser cursadas, levando em conta suas dependências:
+0� Calculo para Computacao I, ID:0
+1� Geometria Analitica, ID:1
+2� Logica Matematica, ID:2
+3� Introducao a Programacao, ID:3
+4� Introducao a Computacao, ID:4
+5� Ingles, ID:13
+6� Sistemas Digitais, ID:15
+7� Metodologia Cientifica, ID:16
+8� Empreendimentos em TIC, ID:30
+9� Computadores e Sociedade, ID:34
+10� Optativa 01, ID:35
+11� Optativa 02, ID:36
+12� Optativa 03, ID:37
+13� Optativa 04, ID:38
+14� Optativa 05, ID:39
+15� Optativa 06, ID:40
+16� Optativa 07, ID:41
+17� Estagio, ID:42
+18� Trabalho de Conclusao de Curso, ID:43
+19� Calculo para Computacao II, ID:5
+20� Fisica Para Computacao, ID:6
+21� Probabilidade e Estatistica, ID:10
+22� Algebra Linear, ID:7
+23� Matematica Discreta, ID:11
+24� Algoritmos e Estrutura de Dados I, ID:8
+25� Programacao Orientada a Objetos, ID:9
+26� Fisica Para Computacao, ID:18
+27� Computacao Grafica, ID:27
+28� Teoria da Computacao, ID:25
+29� Algoritmos e Estrutura de Dados II, ID:12
+30� Arquitetura de Computadores, ID:14
+31� Engenharia de Software, ID:20
+32� Banco de Dados, ID:17
+33� Projeto e Analise de Algoritmos, ID:19
+34� Paradigmas de Linguagens de Programacao, ID:21
+35� Redes de Computadores, ID:26
+36� Compiladores, ID:28
+37� Reconhecimento de Padroes, ID:29
+38� Sistemas Operacionais, ID:23
+39� Sistemas de Informacao e Tecnologias, ID:22
+40� Projeto de Desenvolvimento, ID:32
+41� Interacao Humano-Computador, ID:33
+42� Inteligencia Artificial, ID:24
+43� Sistemas Distribuidos, ID:31
