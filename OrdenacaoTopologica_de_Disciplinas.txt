@@ -4,42 +4,41 @@ Sugestao de ordenacao das disciplinas, levando em conta suas dependencias:
 3º Logica Matematica, ID:2
 4º Introducao a Programacao, ID:3
 5º Introducao a Computacao, ID:4
-6º Ingles, ID:13
-7º Sistemas Digitais, ID:15
-8º Metodologia Cientifica, ID:16
-9º Empreendimentos em TIC, ID:30
-10º Computadores e Sociedade, ID:34
-11º Optativa 01, ID:35
-12º Optativa 02, ID:36
-13º Optativa 03, ID:37
-14º Optativa 04, ID:38
-15º Optativa 05, ID:39
-16º Optativa 06, ID:40
-17º Optativa 07, ID:41
-18º Estagio, ID:42
-19º Trabalho de Conclusao de Curso, ID:43
+6º Sistemas Digitais, ID:11
+7º Metodologia Cientifica, ID:12
+8º Ingles, ID:15
+9º Empreendimentos em TIC, ID:29
+10º Computadores e Sociedade, ID:33
+11º Optativa 01, ID:34
+12º Optativa 02, ID:35
+13º Optativa 03, ID:36
+14º Optativa 04, ID:37
+15º Optativa 05, ID:38
+16º Optativa 06, ID:39
+17º Optativa 07, ID:40
+18º Estagio, ID:41
+19º Trabalho de Conclusao de Curso, ID:42
 20º Calculo para Computacao II, ID:5
 21º Fisica Para Computacao, ID:6
-22º Probabilidade e Estatistica, ID:10
-23º Algebra Linear, ID:7
-24º Matematica Discreta, ID:11
-25º Algoritmos e Estrutura de Dados I, ID:8
-26º Programacao Orientada a Objetos, ID:9
-27º Fisica Para Computacao, ID:18
-28º Computacao Grafica, ID:27
-29º Teoria da Computacao, ID:25
-30º Algoritmos e Estrutura de Dados II, ID:12
-31º Arquitetura de Computadores, ID:14
-32º Engenharia de Software, ID:20
-33º Banco de Dados, ID:17
-34º Projeto e Analise de Algoritmos, ID:19
-35º Paradigmas de Linguagens de Programacao, ID:21
-36º Redes de Computadores, ID:26
-37º Compiladores, ID:28
-38º Reconhecimento de Padroes, ID:29
-39º Sistemas Operacionais, ID:23
-40º Sistemas de Informacao e Tecnologias, ID:22
-41º Projeto de Desenvolvimento, ID:32
-42º Interacao Humano-Computador, ID:33
-43º Inteligencia Artificial, ID:24
-44º Sistemas Distribuidos, ID:31
+22º Algebra Linear, ID:7
+23º Matematica Discreta, ID:13
+24º Algoritmos e Estrutura de Dados I, ID:8
+25º Programacao Orientada a Objetos, ID:9
+26º Probabilidade e Estatistica, ID:10
+27º Arquitetura de Computadores, ID:16
+28º Computacao Grafica, ID:26
+29º Teoria da Computacao, ID:24
+30º Algoritmos e Estrutura de Dados II, ID:14
+31º Engenharia de Software, ID:18
+32º Sistemas Operacionais, ID:22
+33º Projeto e Analise de Algoritmos, ID:17
+34º Paradigmas de Linguagens de Programacao, ID:19
+35º Banco de Dados, ID:20
+36º Redes de Computadores, ID:25
+37º Compiladores, ID:27
+38º Reconhecimento de Padroes, ID:28
+39º Sistemas de Informacao e Tecnologias, ID:21
+40º Projeto de Desenvolvimento, ID:31
+41º Interacao Humano-Computador, ID:32
+42º Inteligencia Artificial, ID:23
+43º Sistemas Distribuidos, ID:30

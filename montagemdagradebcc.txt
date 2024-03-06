@@ -9,37 +9,36 @@ ID, Título, Dependências
 7, Algebra Linear, 1
 8, Algoritmos e Estrutura de Dados I, 3
 9, Programacao Orientada a Objetos, 3
-10, Probabilidade e Estatistica, 0
-11, Matematica Discreta, 2
-12, Algoritmos e Estrutura de Dados II, 8
-13, Ingles,, 
-14, Arquitetura de Computadores, 8, 15
-15, Sistemas Digitais,,
-16, Metodologia Cientifica,,
-17, Banco de Dados, 12
-18, Fisica Para Computacao, 5
-19, Projeto e Analise de Algoritmos, 12
-20, Engenharia de Software, 9
-21, Paradigmas de Linguagens de Programacao, 12
-22, Sistemas de Informacao e Tecnologias, 20
-23, Sistemas Operacionais, 14, 18
-24, Inteligencia Artificial, 19, 21
-25, Teoria da Computacao, 11
-26, Redes de Computadores, 12
-27, Computacao Grafica, 7, 3
-28, Compiladores, 12, 11, 25
-29, Reconhecimento de Padroes, 12, 11
-30, Empreendimentos em TIC,, 
-31, Sistemas Distribuidos, 23, 14, 26 
-32, Projeto de Desenvolvimento, 9, 20
-33, Interacao Humano-Computador, 9, 20
-34, Computadores e Sociedade,,
-35, Optativa 01,,
-36, Optativa 02,,
-37, Optativa 03,,
-38, Optativa 04,, 
-39, Optativa 05,, 
-40, Optativa 06,, 
-41, Optativa 07,, 
-42, Estagio,,
-43, Trabalho de Conclusao de Curso, ,
+10, Probabilidade e Estatistica, 5
+11, Sistemas Digitais,,
+12, Metodologia Cientifica,,
+13, Matematica Discreta, 2
+14, Algoritmos e Estrutura de Dados II, 8
+15, Ingles,, 
+16, Arquitetura de Computadores, 6, 11
+17, Projeto e Analise de Algoritmos, 14
+18, Engenharia de Software, 9
+19, Paradigmas de Linguagens de Programacao, 14
+20, Banco de Dados, 14
+21, Sistemas de Informacao e Tecnologias, 18
+22, Sistemas Operacionais, 16
+23, Inteligencia Artificial, 17, 19
+24, Teoria da Computacao, 13
+25, Redes de Computadores, 14
+26, Computacao Grafica, 7, 3
+27, Compiladores, 14, 24
+28, Reconhecimento de Padroes, 14, 13
+29, Empreendimentos em TIC,, 
+30, Sistemas Distribuidos, 22, 25
+31, Projeto de Desenvolvimento, 18
+32, Interacao Humano-Computador, 18
+33, Computadores e Sociedade,,
+34, Optativa 01,,
+35, Optativa 02,,
+36, Optativa 03,,
+37, Optativa 04,, 
+38, Optativa 05,, 
+39, Optativa 06,, 
+40, Optativa 07,, 
+41, Estagio,,
+42, Trabalho de Conclusao de Curso, ,
